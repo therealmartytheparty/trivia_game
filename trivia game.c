@@ -34,5 +34,16 @@ int main()
   int x2_start, y2_start;
   int time, i;
 
-  st
+  strcpy(buffer,"Player1 Score= "); //strcpy has "player1 Score = " string copied to buffer
+  sprint(buffer2,"%d",n1);
+  strcat(buffer,buffer2);
+
+  char* fullstring = buffer;
+  char* fullstring2 = "WINNER !!! ";
+
+  /*write text to monitor beginnning at (col=x_start,row_start) fullstring*/
+
+  x1_start = 28, x2_start = 28;
+  y1_start = 05 , y2_start = 06;
+
 }
